@@ -1,0 +1,177 @@
+{
+ "note": "Public aggregate of held result files (stats.json, triage.tsv, sig_cache_v2.json and the replay classification of arm A's final corpora). Counts only: no inputs, crash data, signatures or defect details. The full files follow after coordinated disclosure.",
+ "cpu": {
+  "per_trial": {
+   "A1": {
+    "wave": 1,
+    "user_cpu_s": 2204.2,
+    "system_cpu_s": 2512.6,
+    "cpu_s": 4716.8,
+    "wall_s": 7202.3,
+    "executions": 81975960
+   },
+   "A2": {
+    "wave": 1,
+    "user_cpu_s": 2299.2,
+    "system_cpu_s": 2394.9,
+    "cpu_s": 4694.1,
+    "wall_s": 7202.2,
+    "executions": 83081078
+   },
+   "A3": {
+    "wave": 1,
+    "user_cpu_s": 2274.6,
+    "system_cpu_s": 2470.2,
+    "cpu_s": 4744.8,
+    "wall_s": 7200.9,
+    "executions": 80396456
+   },
+   "A4": {
+    "wave": 2,
+    "user_cpu_s": 1982.0,
+    "system_cpu_s": 3691.2,
+    "cpu_s": 5673.2,
+    "wall_s": 7201.0,
+    "executions": 78689657
+   },
+   "A5": {
+    "wave": 2,
+    "user_cpu_s": 2102.3,
+    "system_cpu_s": 3617.6,
+    "cpu_s": 5719.9,
+    "wall_s": 7202.2,
+    "executions": 78481407
+   },
+   "B1": {
+    "wave": 1,
+    "user_cpu_s": 2315.5,
+    "system_cpu_s": 2462.0,
+    "cpu_s": 4777.5,
+    "wall_s": 7201.7,
+    "executions": 87821973
+   },
+   "B2": {
+    "wave": 1,
+    "user_cpu_s": 2266.6,
+    "system_cpu_s": 2471.6,
+    "cpu_s": 4738.2,
+    "wall_s": 7202.5,
+    "executions": 86116986
+   },
+   "B3": {
+    "wave": 1,
+    "user_cpu_s": 2413.2,
+    "system_cpu_s": 2365.2,
+    "cpu_s": 4778.4,
+    "wall_s": 7201.4,
+    "executions": 79629751
+   },
+   "B4": {
+    "wave": 2,
+    "user_cpu_s": 2043.5,
+    "system_cpu_s": 3670.5,
+    "cpu_s": 5714.0,
+    "wall_s": 7201.8,
+    "executions": 75898168
+   },
+   "B5": {
+    "wave": 2,
+    "user_cpu_s": 2026.8,
+    "system_cpu_s": 3664.4,
+    "cpu_s": 5691.2,
+    "wall_s": 7201.7,
+    "executions": 73043396
+   }
+  },
+  "arm_cpu_hours": {
+   "A": 7.1,
+   "B": 7.14
+  },
+  "total_cpu_hours": 14.24
+ },
+ "triage_candidates": {
+  "total": 3001,
+  "oracle_disagreement_signatures": 2996,
+  "crash_candidates": 5
+ },
+ "crash_signatures": {
+  "artefacts_replayed": 37984,
+  "distinct_under_frozen_rule_v1": 1163,
+  "distinct_under_corrected_rule_v2": 5,
+  "see": "DEVIATIONS.md entry 8"
+ },
+ "arm_B_signature_groups": {
+  "groups": 15,
+  "largest_group_signatures": 2290,
+  "largest_group_category": "reference decoder defect",
+  "group_sizes_descending": [
+   2290,
+   231,
+   169,
+   106,
+   73,
+   63,
+   18,
+   17,
+   8,
+   6,
+   6,
+   4,
+   3,
+   1,
+   1
+  ]
+ },
+ "replay_of_arm_A_final_corpora": {
+  "method": "Every file of each arm A final corpus, decoded offline by libmseed and the reference decoder (uninstrumented), classified with the frozen classification v1.1 rules and confirmed by an independent check of the defect condition; no minimization. Exploratory (PREREGISTRATION.md section 6). See DEVIATIONS.md entry 15.",
+  "corpus_files": {
+   "A1": 937,
+   "A2": 904,
+   "A3": 1003,
+   "A4": 896,
+   "A5": 909
+  },
+  "inputs_assigned_and_confirmed": {
+   "differential-only 1": {
+    "A1": 6,
+    "A2": 1,
+    "A3": 0,
+    "A4": 3,
+    "A5": 5
+   },
+   "differential-only 2": {
+    "A1": 0,
+    "A2": 0,
+    "A3": 0,
+    "A4": 0,
+    "A5": 0
+   },
+   "differential-only 3": {
+    "A1": 0,
+    "A2": 2,
+    "A3": 0,
+    "A4": 0,
+    "A5": 0
+   }
+  },
+  "trials_with_at_least_one": {
+   "differential-only 1": 4,
+   "differential-only 2": 0,
+   "differential-only 3": 1
+  },
+  "independent_check_only": {
+   "differential-only 2": {
+    "inputs": {
+     "A1": 6,
+     "A2": 5,
+     "A3": 1,
+     "A4": 3,
+     "A5": 1
+    },
+    "trials_with_at_least_one": 5,
+    "note": "libmseed shows this defect's wrong values on these inputs, but the reference decoder rejects each of them for another reason, so the frozen rules assign them to other groups"
+   }
+  },
+  "unparsed_outputs": 1
+ }
+}

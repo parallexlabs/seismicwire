@@ -1,0 +1,145 @@
+{
+ "exec_per_s": {
+  "A": {
+   "max": 11537.4,
+   "median": 11166.2,
+   "min": 10898.7
+  },
+  "B": {
+   "max": 12195.8,
+   "median": 11059.7,
+   "min": 10144.9
+  },
+  "B_over_A_median": 0.99,
+  "per_trial": {
+   "A1": 11384.0,
+   "A2": 11537.4,
+   "A3": 11166.2,
+   "A4": 10929.1,
+   "A5": 10898.7,
+   "B1": 12195.8,
+   "B2": 11959.0,
+   "B3": 11059.7,
+   "B4": 10539.9,
+   "B5": 10144.9
+  }
+ },
+ "false_alarm": {
+  "by_category": {
+   "documented libmseed leniency": 4,
+   "libmseed defect": 24,
+   "reference decoder defect": 2371,
+   "specification ambiguity": 597
+  },
+  "denominator_B_disagreement_signatures": 2996,
+  "false_alarms": 2968,
+  "rate": 0.9907,
+  "rate_counting_leniency_too": 0.992
+ },
+ "note": "Public copy of results/secondary.json with defect labels replaced by neutral names (ordered by median time to first finding).",
+ "time_to_first_s": {
+  "differential-only 1": {
+   "A_median_s": 7200.0,
+   "B_median_s": 0.8,
+   "censored": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+   ],
+   "per_trial": {
+    "A1": 7200.0,
+    "A2": 7200.0,
+    "A3": 7200.0,
+    "A4": 7200.0,
+    "A5": 7200.0,
+    "B1": 10.5,
+    "B2": 0.8,
+    "B3": 1.1,
+    "B4": 0.5,
+    "B5": 0.6
+   }
+  },
+  "differential-only 2": {
+   "A_median_s": 7200.0,
+   "B_median_s": 14.5,
+   "censored": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+   ],
+   "per_trial": {
+    "A1": 7200.0,
+    "A2": 7200.0,
+    "A3": 7200.0,
+    "A4": 7200.0,
+    "A5": 7200.0,
+    "B1": 9.5,
+    "B2": 0.0,
+    "B3": 74.1,
+    "B4": 14.5,
+    "B5": 134.6
+   }
+  },
+  "differential-only 3": {
+   "A_median_s": 7200.0,
+   "B_median_s": 28.5,
+   "censored": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+   ],
+   "per_trial": {
+    "A1": 7200.0,
+    "A2": 7200.0,
+    "A3": 7200.0,
+    "A4": 7200.0,
+    "A5": 7200.0,
+    "B1": 28.5,
+    "B2": 82.8,
+    "B3": 87.1,
+    "B4": 7.5,
+    "B5": 16.6
+   }
+  },
+  "shared 1": {
+   "A_median_s": 1.6,
+   "B_median_s": 1.5,
+   "censored": [],
+   "per_trial": {
+    "A1": 0.8,
+    "A2": 0.7,
+    "A3": 1.6,
+    "A4": 1.6,
+    "A5": 1.7,
+    "B1": 1.1,
+    "B2": 3.1,
+    "B3": 1.5,
+    "B4": 1.5,
+    "B5": 3.4
+   }
+  },
+  "shared 2": {
+   "A_median_s": 38.0,
+   "B_median_s": 26.1,
+   "censored": [],
+   "per_trial": {
+    "A1": 35.9,
+    "A2": 38.0,
+    "A3": 63.7,
+    "A4": 39.5,
+    "A5": 27.5,
+    "B1": 29.5,
+    "B2": 26.1,
+    "B3": 3.0,
+    "B4": 22.2,
+    "B5": 174.0
+   }
+  }
+ }
+}

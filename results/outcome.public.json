@@ -1,0 +1,30 @@
+{
+ "defects": {
+  "differential-only 1": {
+   "arm_A_trials": 0,
+   "arm_B_trials": 5
+  },
+  "differential-only 2": {
+   "arm_A_trials": 0,
+   "arm_B_trials": 5
+  },
+  "differential-only 3": {
+   "arm_A_trials": 0,
+   "arm_B_trials": 5
+  },
+  "shared 1": {
+   "arm_A_trials": 5,
+   "arm_B_trials": 5
+  },
+  "shared 2": {
+   "arm_A_trials": 5,
+   "arm_B_trials": 5
+  }
+ },
+ "defects_confirmed": 5,
+ "found_by_arm_A": 2,
+ "found_by_arm_B": 5,
+ "found_only_by_arm_B_in_5_of_5_trials_and_arm_A_0_of_5": 3,
+ "note": "Public aggregate of results/outcome.json. Defect names, locations and per-defect details are withheld until coordinated disclosure ends.",
+ "primary_claim_allowed": true
+}

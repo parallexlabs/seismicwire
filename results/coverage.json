@@ -1,0 +1,135 @@
+{
+ "A1": {
+  "branch_pct": 21.23,
+  "branches": 9703,
+  "branches_covered": 2060,
+  "inputs": 937,
+  "line_pct": 28.47,
+  "lines": 14589,
+  "lines_covered": 4153
+ },
+ "A2": {
+  "branch_pct": 21.19,
+  "branches": 9703,
+  "branches_covered": 2056,
+  "inputs": 904,
+  "line_pct": 28.4,
+  "lines": 14589,
+  "lines_covered": 4144
+ },
+ "A3": {
+  "branch_pct": 21.28,
+  "branches": 9703,
+  "branches_covered": 2065,
+  "inputs": 1003,
+  "line_pct": 28.47,
+  "lines": 14589,
+  "lines_covered": 4153
+ },
+ "A4": {
+  "branch_pct": 21.34,
+  "branches": 9703,
+  "branches_covered": 2071,
+  "inputs": 896,
+  "line_pct": 28.55,
+  "lines": 14589,
+  "lines_covered": 4165
+ },
+ "A5": {
+  "branch_pct": 21.33,
+  "branches": 9703,
+  "branches_covered": 2070,
+  "inputs": 909,
+  "line_pct": 28.55,
+  "lines": 14589,
+  "lines_covered": 4165
+ },
+ "B1": {
+  "branch_pct": 21.31,
+  "branches": 9703,
+  "branches_covered": 2068,
+  "inputs": 916,
+  "line_pct": 28.54,
+  "lines": 14589,
+  "lines_covered": 4164
+ },
+ "B2": {
+  "branch_pct": 21.3,
+  "branches": 9703,
+  "branches_covered": 2067,
+  "inputs": 897,
+  "line_pct": 28.55,
+  "lines": 14589,
+  "lines_covered": 4165
+ },
+ "B3": {
+  "branch_pct": 21.23,
+  "branches": 9703,
+  "branches_covered": 2060,
+  "inputs": 947,
+  "line_pct": 28.53,
+  "lines": 14589,
+  "lines_covered": 4162
+ },
+ "B4": {
+  "branch_pct": 21.27,
+  "branches": 9703,
+  "branches_covered": 2064,
+  "inputs": 925,
+  "line_pct": 28.55,
+  "lines": 14589,
+  "lines_covered": 4165
+ },
+ "B5": {
+  "branch_pct": 21.35,
+  "branches": 9703,
+  "branches_covered": 2072,
+  "inputs": 890,
+  "line_pct": 28.58,
+  "lines": 14589,
+  "lines_covered": 4169
+ },
+ "seed": {
+  "branch_pct": 15.58,
+  "branches": 9703,
+  "branches_covered": 1512,
+  "inputs": 59,
+  "line_pct": 22.13,
+  "lines": 14589,
+  "lines_covered": 3229
+ },
+ "summary_branch_pct": {
+  "A12_B_over_A": 0.58,
+  "A_median": 21.28,
+  "A_range": [
+   21.19,
+   21.34
+  ],
+  "B_median": 21.3,
+  "B_range": [
+   21.23,
+   21.35
+  ],
+  "mann_whitney": {
+   "U": 14.5,
+   "p": 0.7532980334628383
+  }
+ },
+ "summary_line_pct": {
+  "A12_B_over_A": 0.76,
+  "A_median": 28.47,
+  "A_range": [
+   28.4,
+   28.55
+  ],
+  "B_median": 28.55,
+  "B_range": [
+   28.53,
+   28.58
+  ],
+  "mann_whitney": {
+   "U": 19.0,
+   "p": 0.1945108063828499
+  }
+ }
+}
